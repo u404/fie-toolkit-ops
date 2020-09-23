@@ -1,0 +1,35 @@
+{
+  "name": "@sc/fie-toolkit-ops",
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ./"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-ais": "0.0.16"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cross-spawn": "^6.0.5",
+    "inquirer": "^6.2.1",
+    "underscore": "^1.9.0"
+  },
+  "maintainers": [
+    {
+      "name": "Myth",
+      "mail": "chenmengxi@smartcinema.com.cn"
+    },
+    {
+      "name": "zhangguanghui",
+      "mail": "zhangguanghui@smartcinema.com.cn"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@t-gitlab.smartcinema.com.cn:node/fie-toolkit-ops.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.smartcinema.com.cn"
+  }
+}

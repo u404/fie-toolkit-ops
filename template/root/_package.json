@@ -1,0 +1,27 @@
+{
+  "name": "developing-project-name",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "@sc/ops-cli": "latest",
+    "@sc/ops-core": "latest",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "@sc/eslint-config-ops": "latest"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "ops start --daemon --title=egg-server-developing-project-name",
+    "stop": "ops stop --title=egg-server-developing-project-name",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
